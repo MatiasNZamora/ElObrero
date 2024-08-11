@@ -20,4 +20,3 @@ const DishCard = ({ proyect }) => {
 };
 
 export default DishCard
- 
