@@ -86,7 +86,7 @@ export const ABOUT = {
 };
 
 export const MISSION =
-  "Ser ese restaurante, en el cual puedas rememorar los momentos mas felices de tu vida y poque no crear uno nuevo.";
+  "Ser ese restaurante, en el cual puedes rememorar los momentos mas felices de tu vida y poque no crear uno nuevo.";
 
 export const CUSINES = [
   {
@@ -115,8 +115,7 @@ export const CUSINES = [
 export const REVIEW = {
   name: "Matias N Zamora",
   profession: "Creador de momentos",
-  content:
-    " “El mayor logro de un chef, es que la gente sienta el sabor de la Felicidad.” ",
+  content: " “El mayor logro de un chef, es que la gente sienta el sabor de la Felicidad.” ",
 };
 
 export const CONTACT = [
