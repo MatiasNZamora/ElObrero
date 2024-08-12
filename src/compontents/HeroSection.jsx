@@ -1,12 +1,12 @@
 import video from '../assets/hero.mp4';
 import logo from '../assets/logo.png';
-import hero from '../assets/hero.jpeg';
+// import hero from '../assets/hero.jpeg';
 import { motion } from 'framer-motion';
 
 const HeroSection = () => {
     return (
         <>
-            <section className="relative flex h-screen items-center justify-center">
+            <section className="relative flex h-screen items-center justify-center" id='init'>
                 <div className="absolute inset-0 -z-20 h-full w-full overflow-hidden">
                     <video 
                         className='h-full w-full object-cover' 
@@ -14,7 +14,7 @@ const HeroSection = () => {
                         autoPlay
                         loop
                         playsInline
-                        poster={hero}
+                        // poster={hero}
                         src={video} 
                     ></video>
                 </div>
@@ -23,7 +23,7 @@ const HeroSection = () => {
                     <motion.img 
                         initial={{opacity:0, y:50}}
                         animate={{opacity:1, y:0}}
-                        transition={{duration:1.2}}
+                        transition={{duration:0.5}}
                         src={logo} 
                         alt="el obrero"  
                         className='w-full p-4'

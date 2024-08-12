@@ -3,9 +3,9 @@ import NavBar from './compontents/NavBar';
 import Dishes from './compontents/Dishes';
 import About from './compontents/About';
 import Mission from './compontents/Mission';
-import Experience from './compontents/Experience';
+// import Experience from './compontents/Experience';
 import Review from './compontents/Review';
-import ContactSection from './compontents/ContactSection';
+// import ContactSection from './compontents/ContactSection';
 import Footer from './compontents/Footer';
 
 const App = () => {
@@ -16,9 +16,9 @@ const App = () => {
       <Dishes/>
       <About />  
       <Mission />
-      <Experience />
+      {/* <Experience /> */}
       <Review /> 
-      <ContactSection /> 
+      {/* <ContactSection />  */}
       <Footer />
     </main>
   )

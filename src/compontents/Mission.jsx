@@ -1,4 +1,4 @@
-import missionImg from '../assets/mission.jpeg';
+// import missionImg from '../assets/mission.jpeg';
 import mission from '../assets/mission.mp4';
 import { MISSION } from '../constants';
 import { motion } from 'framer-motion';
@@ -16,7 +16,7 @@ const Mission = () => {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 1.5 }} 
-                        poster={ missionImg }
+                        // poster={ missionImg }
                         className="w-full rounded-3xl"
                         autoPlay
                         muted

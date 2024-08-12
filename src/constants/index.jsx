@@ -16,12 +16,13 @@ import indian from "../assets/indian.jpeg";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
-  { text: "About", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
-  { text: "Expertise", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
-  { text: "Contact", targetId: "contact" },
+  { text: "Inicio", targetId: "init" },
+  { text: "Platos", targetId: "dishes" },
+  { text: "Nosotros", targetId: "about" },
+  { text: "Nuestra Mision", targetId: "mission" },
+  // { text: "Experincias", targetId: "expertise" },
+  { text: "Filosofia", targetId: "review" },
+  // { text: "Contact", targetId: "contact" },
 ];
 
 export const DISHES = [
@@ -79,13 +80,13 @@ export const DISHES = [
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
+  header: "Amamos cocinar!",
   content:
     "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
 };
 
 export const MISSION =
-  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+  "Ser ese restaurante, en el cual puedas rememorar los momentos mas felices de tu vida y poque no crear uno nuevo.";
 
 export const CUSINES = [
   {
@@ -112,30 +113,30 @@ export const CUSINES = [
 ];
 
 export const REVIEW = {
-  name: "Xaviour Fernando",
-  profession: "Food Critic",
+  name: "Matias N Zamora",
+  profession: "Creador de momentos",
   content:
-    "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
+    " “El mayor logro de un chef, es que la gente sienta el sabor de la Felicidad.” ",
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  { key: "address", value: "Dirección: Chubut690, La Rioja, Argentina, CP5300" },
+  { key: "phone", value: "Phone: 2954-565149" },
+  { key: "email", value: "Email: info@elobrero.com.ar" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/matias.zamora.5688/",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
 
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/matynzamora/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
-  },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+  // },
 ];
