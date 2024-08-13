@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { REVIEW } from "../constants";
-import xaviour from "../assets/xaviour.jpeg";
+import maty from "../assets/maty.jpg";
 import custumer1 from "../assets/customer1.jpeg";
 import custumer2 from "../assets/customer2.jpeg";
 import custumer3 from "../assets/customer3.jpeg";
@@ -40,13 +40,14 @@ const Review = () => {
                     className="flex item-center justify-center gap-6"
                 >
                     <img 
-                        src={xaviour}  
+                        // src={xaviour}  
+                        src={maty}  
                         width={80} 
                         height={80} 
                         alt={REVIEW.name}
                         className="rounded-full border"
                     />
-                    <div className="tracking-tighter">
+                    <div className="tracking-tighter mt-3">
                         <h6> { REVIEW.name } </h6>
                         <p className="text-sm text-neutral-500">
                             { REVIEW.profession }
