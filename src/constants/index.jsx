@@ -1,13 +1,11 @@
-import dish1 from "../assets/dish6.jpeg";
-import dish2 from "../assets/dish6.jpeg";
-import dish3 from "../assets/wave.webp";
-import dish4 from "../assets/dumplings.webp";
-import dish5 from "../assets/albondigas.webp";
-import dish6 from "../assets/chalupas.webp";
-import dish7 from "../assets/dish7.jpeg";
-import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
-import dish10 from "../assets/dish10.jpeg";
+import dish1 from "../assets/platos/polloLimon.webp";
+import dish2 from "../assets/1.jpg";
+import dish3 from "../assets/platos/guacamoleAve.webp";
+import dish4 from "../assets/platos/dumplings.webp";
+import dish5 from "../assets/platos/albondigas.webp";
+import dish6 from "../assets/platos/chalupas.webp";
+import dish7 from "../assets/cesa.jpg";
+
 
 import italian from "../assets/italian.jpeg";
 import japanese from "../assets/japanese.jpeg";
@@ -18,8 +16,8 @@ import { FaFacebook, FaInstagram } from "react-icons/fa6";
 export const LINKS = [
   { text: "Inicio", targetId: "init" },
   { text: "Platos", targetId: "dishes" },
-  { text: "Nosotros", targetId: "about" },
-  { text: "Nuestra Mision", targetId: "mission" },
+  { text: "Sobre Mi", targetId: "about" },
+  { text: "Misión", targetId: "mission" },
   // { text: "Experincias", targetId: "expertise" },
   { text: "Filosofia", targetId: "review" },
   // { text: "Contact", targetId: "contact" },
@@ -57,7 +55,7 @@ export const DISHES = [
     description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
   },
   {
-    image: dish6,
+    image: dish7,
     title: "Ensalada Cesar",
     description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
   },
@@ -85,8 +83,14 @@ export const DISHES = [
 ];
 
 export const ABOUT = {
-  header: "Amamos cocinar!",
-  content:"Muestra pasión se centra en la gastronomía regional, con un enfoque particular en las raíces de nuestro país, Argentina. Me enamora la rica herencia de la cocina italiana, peruana y francesa, pero también estoy emocionado por explorar nuevas fronteras culinarias. En nuestra cocina, estamos incursionando en sabores de Oriente y del Medio Oriente, siempre buscando fusionar lo tradicional con lo innovador. Seguimos una filosofía que consideramos fundamental en mi trabajo: 'El mayor logro de un chef, es hacer es que la gente sienta el sabor de la felicidad'. Cada creación que preparo está impregnada de esta creencia, y mi objetivo es que cada bocado sea una experiencia memorable. Bienvenidos a nuestra cocina. Espero que disfruten de cada plato tanto como nosotros disfrutamos creándolos. ",
+  header: "Amor por cocinar!",
+  content:`
+    Mi pasión se centra en la gastronomía regional, con un enfoque particular en las raíces de mi amada, Argentina. 
+    Me enamora la rica herencia de la cocina italiana, peruana y francesa, pero también estoy emocionado por explorar nuevas 
+    fronteras culinarias. Estamos incursionando en sabores de Oriente y del Medio Oriente, siempre buscando 
+    fusionar lo tradicional con lo innovador. Sigo una frace que considero fundamental en mi vida gastronomica: 
+    'El mayor logro de un chef, es hacer es que la gente sienta el sabor de la felicidad'. Cada creación que preparo está impregnada
+    de esta creencia. Bienvenidos a mi cocina. Espero que disfruten de cada plato tanto como nosotros disfrutamos creándolos. `,
 };
 
 export const MISSION = "Ser ese restaurante, en el cual puedes rememorar los momentos mas felices de tu vida y poque no crear uno nuevo.";
@@ -122,7 +126,7 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", value: "Dirección: Chubut690, La Rioja, Argentina, CP5300" },
+  { key: "address", value: "La Rioja, Argentina, CP5300" },
   { key: "phone", value: "Phone: 2954-565149" },
   { key: "email", value: "Email: info@elobrero.com.ar" },
 ];
