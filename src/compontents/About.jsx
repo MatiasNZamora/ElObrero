@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section className='container mx-auto mb-8' id='about'>
             <h2 className='mb-11 text-center text-3xl tracking-tighter lg:text-4xl'>
-                Sobre Nosotros
+                Sobre Mi
             </h2>
             <div className='flex flex-wrap'>
                 

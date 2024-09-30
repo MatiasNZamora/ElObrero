@@ -5,7 +5,7 @@ const DishCard = ({ proyect }) => {
             <img 
                 src={proyect.image}
                 alt={proyect.title}
-                className="rounded-3xl p-2 h-[300px] w-[300px]"
+                className="rounded-3xl p-2 h-[300px] w-[300px] opacity-60"
             />
             <div className="p-4">
                 <h3 className="mb-2 text-2xl font-bold tracking-tighter">
